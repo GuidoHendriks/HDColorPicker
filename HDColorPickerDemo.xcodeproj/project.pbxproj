@@ -14,14 +14,15 @@
 		C5D34F8F1909293700493A3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D34F8E1909293700493A3A /* main.m */; };
 		C5D34F931909293700493A3A /* HDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D34F921909293700493A3A /* HDAppDelegate.m */; };
 		C5D34F961909293700493A3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D34F941909293700493A3A /* Main.storyboard */; };
-		C5D34F991909293700493A3A /* HDMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D34F981909293700493A3A /* HDMasterViewController.m */; };
-		C5D34F9C1909293700493A3A /* HDDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D34F9B1909293700493A3A /* HDDetailViewController.m */; };
 		C5D34F9E1909293700493A3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D34F9D1909293700493A3A /* Images.xcassets */; };
 		C5D34FA51909293700493A3A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D34FA41909293700493A3A /* XCTest.framework */; };
 		C5D34FA61909293700493A3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D34F821909293700493A3A /* Foundation.framework */; };
 		C5D34FA71909293700493A3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D34F861909293700493A3A /* UIKit.framework */; };
 		C5D34FAF1909293700493A3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5D34FAD1909293700493A3A /* InfoPlist.strings */; };
 		C5D34FB11909293700493A3A /* HDColorPickerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D34FB01909293700493A3A /* HDColorPickerDemoTests.m */; };
+		C5D34FC119092B9500493A3A /* HDColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D34FBD19092B9500493A3A /* HDColorPicker.m */; };
+		C5D34FC219092B9500493A3A /* HDColorPickerSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D34FC019092B9500493A3A /* HDColorPickerSlider.m */; };
+		C5D34FC519092BDF00493A3A /* HDDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D34FC419092BDF00493A3A /* HDDemoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,16 +47,19 @@
 		C5D34F911909293700493A3A /* HDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDAppDelegate.h; sourceTree = "<group>"; };
 		C5D34F921909293700493A3A /* HDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDAppDelegate.m; sourceTree = "<group>"; };
 		C5D34F951909293700493A3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C5D34F971909293700493A3A /* HDMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDMasterViewController.h; sourceTree = "<group>"; };
-		C5D34F981909293700493A3A /* HDMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDMasterViewController.m; sourceTree = "<group>"; };
-		C5D34F9A1909293700493A3A /* HDDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDDetailViewController.h; sourceTree = "<group>"; };
-		C5D34F9B1909293700493A3A /* HDDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDDetailViewController.m; sourceTree = "<group>"; };
 		C5D34F9D1909293700493A3A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C5D34FA31909293700493A3A /* HDColorPickerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HDColorPickerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D34FA41909293700493A3A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C5D34FAC1909293700493A3A /* HDColorPickerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HDColorPickerDemoTests-Info.plist"; sourceTree = "<group>"; };
 		C5D34FAE1909293700493A3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C5D34FB01909293700493A3A /* HDColorPickerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDColorPickerDemoTests.m; sourceTree = "<group>"; };
+		C5D34FBC19092B9500493A3A /* HDColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDColorPicker.h; sourceTree = "<group>"; };
+		C5D34FBD19092B9500493A3A /* HDColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDColorPicker.m; sourceTree = "<group>"; };
+		C5D34FBE19092B9500493A3A /* HDColorPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDColorPickerDelegate.h; sourceTree = "<group>"; };
+		C5D34FBF19092B9500493A3A /* HDColorPickerSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDColorPickerSlider.h; sourceTree = "<group>"; };
+		C5D34FC019092B9500493A3A /* HDColorPickerSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDColorPickerSlider.m; sourceTree = "<group>"; };
+		C5D34FC319092BDF00493A3A /* HDDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDDemoViewController.h; sourceTree = "<group>"; };
+		C5D34FC419092BDF00493A3A /* HDDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDDemoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +122,8 @@
 				C5D34F911909293700493A3A /* HDAppDelegate.h */,
 				C5D34F921909293700493A3A /* HDAppDelegate.m */,
 				C5D34F941909293700493A3A /* Main.storyboard */,
-				C5D34F971909293700493A3A /* HDMasterViewController.h */,
-				C5D34F981909293700493A3A /* HDMasterViewController.m */,
-				C5D34F9A1909293700493A3A /* HDDetailViewController.h */,
-				C5D34F9B1909293700493A3A /* HDDetailViewController.m */,
+				C5D34FBA1909294100493A3A /* View Controllers */,
+				C5D34FBB19092B9500493A3A /* HDColorPicker */,
 				C5D34F9D1909293700493A3A /* Images.xcassets */,
 				C5D34F891909293700493A3A /* Supporting Files */,
 			);
@@ -155,6 +157,27 @@
 				C5D34FAD1909293700493A3A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5D34FBA1909294100493A3A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C5D34FC319092BDF00493A3A /* HDDemoViewController.h */,
+				C5D34FC419092BDF00493A3A /* HDDemoViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C5D34FBB19092B9500493A3A /* HDColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				C5D34FBC19092B9500493A3A /* HDColorPicker.h */,
+				C5D34FBD19092B9500493A3A /* HDColorPicker.m */,
+				C5D34FBE19092B9500493A3A /* HDColorPickerDelegate.h */,
+				C5D34FBF19092B9500493A3A /* HDColorPickerSlider.h */,
+				C5D34FC019092B9500493A3A /* HDColorPickerSlider.m */,
+			);
+			path = HDColorPicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,10 +278,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5D34F991909293700493A3A /* HDMasterViewController.m in Sources */,
-				C5D34F9C1909293700493A3A /* HDDetailViewController.m in Sources */,
 				C5D34F931909293700493A3A /* HDAppDelegate.m in Sources */,
+				C5D34FC519092BDF00493A3A /* HDDemoViewController.m in Sources */,
 				C5D34F8F1909293700493A3A /* main.m in Sources */,
+				C5D34FC119092B9500493A3A /* HDColorPicker.m in Sources */,
+				C5D34FC219092B9500493A3A /* HDColorPickerSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
